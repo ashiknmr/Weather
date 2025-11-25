@@ -90,7 +90,22 @@ body {
     backdrop-filter: blur(4px);
     transition: transform 0.3s ease, background 0.3s ease;
 }
-
+.date{
+    background: rgba(255, 255, 255, 0.25);
+    padding: 15px 10px;
+    border-radius: 10px;
+    font-size: 14px;
+    backdrop-filter: blur(4px);
+    transition: transform 0.3s ease, background 0.3s ease;
+}
+.time{
+    background: rgba(255, 255, 255, 0.25);
+    padding: 15px 10px;
+    border-radius: 10px;
+    font-size: 14px;
+    backdrop-filter: blur(4px);
+    transition: transform 0.3s ease, background 0.3s ease;
+}
 .box:hover {
     transform: translateY(-5px);
     background: rgba(255, 255, 255, 0.35);
